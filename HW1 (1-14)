@@ -60,3 +60,87 @@ $ cp h3/h2.json h1/h2.json
 
 user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
 $
+user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
+$ user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
+$ find . -name "*.txt"
+./h1/g1.txt
+./h1/g3.txt
+./h2/g2.txt
+./h2/g3.txt
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
+$ find . -name "h2.json"
+./h1/h2.json
+./h3/h2.json
+
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29
+$ cat qq1.txt
+sfms
+l;l
+
+
+mlkm
+
+
+21233 !!!l[!!sdckm
+dwd
+
+kjsk;lfskf1313lkjl
+;l,;l,
+l,k;m
+ufvuy
+pojl
+lm;dfv
+;,dvf
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29
+$ cat -n qq1.txt
+     1  sfms
+     2  l;l
+     3
+     4
+     5  mlkm
+     6
+     7
+     8  21233 !!!l[!!sdckm
+     9  dwd
+    10
+    11  kjsk;lfskf1313lkjl
+    12  ;l,;l,
+    13  l,k;m
+    14  ufvuy
+    15  pojl
+    16  lm;dfv
+    17  ;,dvf
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29
+$ head -3 qq1.txt
+sfms
+l;l
+
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29
+$ tail -4 qq1.txt
+ufvuy
+pojl
+lm;dfv
+;,dvf
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29
+$ less -5 qq1.txt
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29
+$ date
+Wed Apr 20 01:08:17     2022
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29
+$ date +"%d %B %Y"
+20 April 2022
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29
+$ date +"%d %B %Y %X"
+20 April 2022 01:09:48
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29
+$
