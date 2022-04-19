@@ -1,0 +1,62 @@
+user@WIN-37E0A2LSI5E MINGW64 /d/group29
+$ pwd
+/d/group29
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29
+$ mkdir hw1
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29
+$ cd hw1
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
+$ mkdir h1 h2 h3
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
+$ cd h2
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1/h2
+$ touch g1.txt g2.txt g3.txt h1.json h2.json
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1/h2
+$ ls -la
+total 0
+drwxr-xr-x 1 user 197121 0 Apr 19 23:02 ./
+drwxr-xr-x 1 user 197121 0 Apr 19 23:01 ../
+-rw-r--r-- 1 user 197121 0 Apr 19 23:02 g1.txt
+-rw-r--r-- 1 user 197121 0 Apr 19 23:02 g2.txt
+-rw-r--r-- 1 user 197121 0 Apr 19 23:02 g3.txt
+-rw-r--r-- 1 user 197121 0 Apr 19 23:02 h1.json
+-rw-r--r-- 1 user 197121 0 Apr 19 23:02 h2.json
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1/h2
+$ cat >>g3.txt
+hello, my name is Tory
+13071994
+
+12
+
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1/h2
+$ cat g3.txt
+hello, my name is Tory
+13071994
+
+12
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1/h2
+$ cd ..
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
+$ mv h2/g1.txt h1/g1.txt
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
+$ mv h2/h2.json h3/h2.json
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
+$ cp h2/g3.txt h1/g3.txt
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
+$ cp h3/h2.json h1/h2.json
+
+user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
+$
