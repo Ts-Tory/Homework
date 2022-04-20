@@ -27,3 +27,12 @@
 15,16) let item_5 = item_3;
 17) let item_6;
 18) let item_6_type;
+19) item_6 = 15;
+??? 20) item_6_type = "item_6";
+??? 21) console.log("item_6 ==,", "item_6_type =="); Ctrl+Alt+n
+Результат: item_6 ==, item_6_type ==
+22) let item_7 = string (item_6);
+23) let item_7_type;
+24) item_7_type = "item_7";
+25) console.log("item_7 ==,", "item_7_type ==");
+26) 
