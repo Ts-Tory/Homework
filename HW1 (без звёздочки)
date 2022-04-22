@@ -54,14 +54,7 @@ $ cp h3/h2.json h1/h2.json
 
 15) Найти файл по имени
 $ find . -name "*.txt"
-./h1/g1.txt
-./h1/g3.txt
-./h2/g2.txt
-./h2/g3.txt
-
 $ find . -name "h2.json"
-./h1/h2.json
-./h3/h2.json
 
 16) Просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
 $ tail -f otkuda.txt | grep --line-buffered ca | tee kuda.txt
@@ -76,13 +69,7 @@ $ tail -4 qq1.txt
 $ less -5 qq1.txt
 
 20) вывести дату и время
-$ date
-Wed Apr 20 01:08:17     2022
+$ date (Wed Apr 20 01:08:17  2022)
+$ date +"%d %B %Y" (20 April 2022)
+$ date +"%d %B %Y %X" (20 April 2022 01:09:48)
 
-user@WIN-37E0A2LSI5E MINGW64 /d/group29
-$ date +"%d %B %Y"
-20 April 2022
-
-user@WIN-37E0A2LSI5E MINGW64 /d/group29
-$ date +"%d %B %Y %X"
-20 April 2022 01:09:48
