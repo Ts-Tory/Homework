@@ -64,11 +64,7 @@ $ find . -name "h2.json"
 ./h3/h2.json
 
 16) Просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
-
-
-
-
-
+$ tail -f otkuda.txt | grep --line-buffered ca | tee kuda.txt
 
 17) вывести несколько первых строк из текстового файла
 $ head -3 qq1.txt
