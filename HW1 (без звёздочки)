@@ -1,23 +1,25 @@
-user@WIN-37E0A2LSI5E MINGW64 /d/group29
+1) Посмотреть где я
 $ pwd
-/d/group29
 
-user@WIN-37E0A2LSI5E MINGW64 /d/group29
+2) Создать папку
 $ mkdir hw1
 
-user@WIN-37E0A2LSI5E MINGW64 /d/group29
+3) Зайти в папку
 $ cd hw1
 
-user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
+4) Создать 3 папки
 $ mkdir h1 h2 h3
 
-user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
+5) Зайти в любоую папку
 $ cd h2
 
-user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1/h2
+6) Создать 5 файлов (3 txt, 2 json)
 $ touch g1.txt g2.txt g3.txt h1.json h2.json
 
-user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1/h2
+7) Создать 3 папки
+$ mkdir r1 r2 r3
+
+8) Вывести список содержимого папки
 $ ls -la
 total 0
 drwxr-xr-x 1 user 197121 0 Apr 19 23:02 ./
@@ -28,109 +30,56 @@ drwxr-xr-x 1 user 197121 0 Apr 19 23:01 ../
 -rw-r--r-- 1 user 197121 0 Apr 19 23:02 h1.json
 -rw-r--r-- 1 user 197121 0 Apr 19 23:02 h2.json
 
-user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1/h2
+9) + Открыть любой txt файл
+10) + написать туда что-нибудь, любой текст.
+11) + сохранить и выйти.
+
 $ cat >>g3.txt
-hello, my name is Tory
-13071994
+hello, my name is Tory.(Enter - сохраняет написанную строчку)
+I have dog, cat and parrot.(Enter)
+(Enter)
+I`, 27 years old.(Enter)
+Нажать Ctrl+C (сохраняет и выходит)
 
-12
-
-
-user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1/h2
-$ cat g3.txt
-hello, my name is Tory
-13071994
-
-12
-
-user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1/h2
+12) Выйти из папки на уровень выше
 $ cd ..
 
-user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
+13) переместить любые 2 файла, которые вы создали, в любую другую папку
 $ mv h2/g1.txt h1/g1.txt
-
-user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
 $ mv h2/h2.json h3/h2.json
 
-user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку
 $ cp h2/g3.txt h1/g3.txt
-
-user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
 $ cp h3/h2.json h1/h2.json
 
-user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
-$
-user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
-$ user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
+15) Найти файл по имени
 $ find . -name "*.txt"
 ./h1/g1.txt
 ./h1/g3.txt
 ./h2/g2.txt
 ./h2/g3.txt
 
-user@WIN-37E0A2LSI5E MINGW64 /d/group29/hw1
 $ find . -name "h2.json"
 ./h1/h2.json
 ./h3/h2.json
 
-
-user@WIN-37E0A2LSI5E MINGW64 /d/group29
-$ cat qq1.txt
-sfms
-l;l
+16) Просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
 
 
-mlkm
 
 
-21233 !!!l[!!sdckm
-dwd
 
-kjsk;lfskf1313lkjl
-;l,;l,
-l,k;m
-ufvuy
-pojl
-lm;dfv
-;,dvf
 
-user@WIN-37E0A2LSI5E MINGW64 /d/group29
-$ cat -n qq1.txt
-     1  sfms
-     2  l;l
-     3
-     4
-     5  mlkm
-     6
-     7
-     8  21233 !!!l[!!sdckm
-     9  dwd
-    10
-    11  kjsk;lfskf1313lkjl
-    12  ;l,;l,
-    13  l,k;m
-    14  ufvuy
-    15  pojl
-    16  lm;dfv
-    17  ;,dvf
-
-user@WIN-37E0A2LSI5E MINGW64 /d/group29
+17) вывести несколько первых строк из текстового файла
 $ head -3 qq1.txt
-sfms
-l;l
 
-
-user@WIN-37E0A2LSI5E MINGW64 /d/group29
+18) вывести несколько последних строк из текстового файла
 $ tail -4 qq1.txt
-ufvuy
-pojl
-lm;dfv
-;,dvf
 
-user@WIN-37E0A2LSI5E MINGW64 /d/group29
+19) Gросмотреть содержимое длинного файла (команда less) изучите как она работает.
 $ less -5 qq1.txt
 
-user@WIN-37E0A2LSI5E MINGW64 /d/group29
+20) вывести дату и время
 $ date
 Wed Apr 20 01:08:17     2022
 
@@ -141,6 +90,3 @@ $ date +"%d %B %Y"
 user@WIN-37E0A2LSI5E MINGW64 /d/group29
 $ date +"%d %B %Y %X"
 20 April 2022 01:09:48
-
-user@WIN-37E0A2LSI5E MINGW64 /d/group29
-$
