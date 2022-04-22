@@ -21,14 +21,6 @@ $ mkdir r1 r2 r3
 
 8) Вывести список содержимого папки
 $ ls -la
-total 0
-drwxr-xr-x 1 user 197121 0 Apr 19 23:02 ./
-drwxr-xr-x 1 user 197121 0 Apr 19 23:01 ../
--rw-r--r-- 1 user 197121 0 Apr 19 23:02 g1.txt
--rw-r--r-- 1 user 197121 0 Apr 19 23:02 g2.txt
--rw-r--r-- 1 user 197121 0 Apr 19 23:02 g3.txt
--rw-r--r-- 1 user 197121 0 Apr 19 23:02 h1.json
--rw-r--r-- 1 user 197121 0 Apr 19 23:02 h2.json
 
 9) + Открыть любой txt файл
 10) + написать туда что-нибудь, любой текст.
