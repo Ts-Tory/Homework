@@ -72,7 +72,6 @@ $ curl "http://162.55.220.72:5005/get_method?name=Vika&age=27"
 
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
 #!/bin/bash
-mkdir hw1
 cd hw1
 mkdir h1 h2 h3
 cd h1
