@@ -72,12 +72,14 @@ $ curl "http://162.55.220.72:5005/get_method?name=Vika&age=27"
 
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
 #!/bin/bash
+mkdir hw1
 cd hw1
 mkdir h1 h2 h3
-cd h2
-touch g1.txt g2.txt g3.txt h1.json h2.json
+cd h1
+touch g1.txt g2.txt g3.txt u1.json u2.json 
 mkdir r1 r2 r3
 ls -la
-mv h2/g1.txt h1/g1.txt
-mv h2/h2.json h3/h2.json
+cd ..
+mv h1/g1.txt h3/g1.txt
+mv h1/u1.json h3/u2.json
 
